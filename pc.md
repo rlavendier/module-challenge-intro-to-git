@@ -9,8 +9,14 @@ Git is a program while GitHub is cloud-based hosting service.
 3. Why do we create a branch?
 A branch isolates your work from other team members so you can develop independently.
 4. What is the purpose of a Pull Request?
-
+A Pull Request is used to tell others about changes you have pushed into a repository and allows
+it to be reviewed. 
 5. What is the command you can use to switch between branches? For example you are working on the FIRSTNAME-LASTNAME branch and you want to switch back to main.
+git checkout -b 'firstname-lastname'
 6. Explain the difference between `git fetch`, `git merge` and `git pull`. What does each command do?
+The command 'git fetch' downloads objects from another repository, 'git merge' incorporates changes from named commits into the current branches,
+'git pull' merges changes from a local repository to a branch.
 7. What is a merge conflict?
+An event that occurs when Git is unable to automatically resolve differences in code between two commits.
 8. How do you resolve a merge conflict?
+Open the file and make any necessary changes or create a new commit.
